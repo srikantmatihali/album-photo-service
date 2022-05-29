@@ -2,7 +2,7 @@
 
 
 ## Authors
-Srikanth V Mattihalli [github](https://github.com/srikantmatihali) | [Linkedin](https://www.linkedin.com/in/srikanthvmattihalli/)[Twitter]| (https://twitter.com/srikantmatihali/)
+Srikanth V Mattihalli [github](https://github.com/srikantmatihali) | [Linkedin](https://www.linkedin.com/in/srikanthvmattihalli/) | [Twitter](https://twitter.com/srikantmatihali/)
 
 
 ## Problem Statement

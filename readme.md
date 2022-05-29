@@ -1,8 +1,10 @@
-Question
-================
+# Interview Question to creation and album-photo service
 
-https://jsonplaceholder.typicode.com/albums
-https://jsonplaceholder.typicode.com/photos?albumId={albumid}
+
+[![N|Solid](Question)
+
+[json album api](https://jsonplaceholder.typicode.com/albums)
+[json photo api](https://jsonplaceholder.typicode.com/photos?albumId={albumid})
 
 Above are two urls from which fetching of albums and invidual photos needs to be done.
 
@@ -10,18 +12,14 @@ Above are two urls from which fetching of albums and invidual photos needs to be
 2. Endpoints to be built to access the data.
 
 
-
-
-===================
-INSTRUCTIONS
-===================
+## INSTRUCTIONS
 
 Tech Stack userd : nodejs (expressjs), mysql
 
 1. Install nodejs and mysql on local machine. Postman can be handy.
 
 2. Run below sql to create database and tables;
-
+``` sql
 CREATE DATABASE srikantmatihali@gmail.com
 
 CREATE TABLE album (
@@ -31,9 +29,9 @@ CREATE TABLE album (
     userId int,
     PRIMARY KEY (id)
 );
-
+```
 // INSERT INTO album(id_api,title,userId) values(1,'test',1);
-
+``` sql
 CREATE TABLE photo (
     id BIGINT NOT NULL AUTO_INCREMENT,
     albumId int,
@@ -43,16 +41,20 @@ CREATE TABLE photo (
     thumbnailUrl TEXT,
     PRIMARY KEY (id)
 );
-
+```
 //INSERT INTO photo(albumId,photoId,title,url,thumbnailUrl) values(1,1,'test','http://google.com','http://google.com');
 
-2. >>cd /path/album-photo-db-service-interview;
+2. ```sh
+   cd /path/album-photo-db-service-interview;
    >>npm i;
+   ```
 
 3. Run script
    This runs concurrently, fetching data from json url and inserts data into database. 
    to help run 1st api for album fetch and insert data into DB and helps run 2nd api.
-   >>node services/importer.js
+   ```sh
+   node services/importer.js
+   ```
    Note: Run it only once to avoid duplication.    
 
 4.  Curl code to test search album and data:

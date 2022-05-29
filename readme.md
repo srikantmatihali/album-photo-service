@@ -16,6 +16,14 @@ Above are two urls from which fetching of albums and invidual photos needs to be
 1. Cron Service to be built to pull albums and photos and save in local database.
 2. Endpoints to be built to access the data.
 
+## Endpoints
+
+Search Album: {domain}/search/?type=album&id={albumid}
+
+Search Photo: {domain}?type=photo&albumId=13&id={photo_id}
+
+_Note: URL's are still not made search friendly. It can be made using combination of htaccess or routing stratergy. Not implemented here. It is open for changes.
+_
 
 ## Project setup instructions
 

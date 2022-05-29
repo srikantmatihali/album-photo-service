@@ -1,7 +1,7 @@
-# Interview Question to creation and album-photo service
+# ALBUM PHOTO SERVICE
 
 
-## Question
+## Problem Statement
 
 [json album api](https://jsonplaceholder.typicode.com/albums)
 [json photo api](https://jsonplaceholder.typicode.com/photos?albumId={albumid})

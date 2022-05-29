@@ -1,7 +1,7 @@
 # Interview Question to creation and album-photo service
 
 
-[![N|Solid](Question)
+## Question
 
 [json album api](https://jsonplaceholder.typicode.com/albums)
 [json photo api](https://jsonplaceholder.typicode.com/photos?albumId={albumid})
@@ -44,12 +44,13 @@ CREATE TABLE photo (
 ```
 //INSERT INTO photo(albumId,photoId,title,url,thumbnailUrl) values(1,1,'test','http://google.com','http://google.com');
 
-2. ```sh
+3. Go to Path of Project and load node modules.
+  ```sh
    cd /path/album-photo-db-service-interview;
-   >>npm i;
+   npm i;
    ```
 
-3. Run script
+4. Run Importer script
    This runs concurrently, fetching data from json url and inserts data into database. 
    to help run 1st api for album fetch and insert data into DB and helps run 2nd api.
    ```sh
@@ -57,13 +58,13 @@ CREATE TABLE photo (
    ```
    Note: Run it only once to avoid duplication.    
 
-4.  Curl code to test search album and data:
+5.  Curl code to test search album and data:
 
     ```
     curl --location --request GET 'http://localhost:3000/search/?type=album&id=1'
     ```
 
-5. Curl code to test search photo and data:
+6. Curl code to test search photo and data:
    ```
     curl --location --request GET 'http://localhost:3000/search/?type=photo&albumId=13&id=603'
    ```     

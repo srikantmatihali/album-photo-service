@@ -1,5 +1,7 @@
 # ALBUM PHOTO SERVICE
 
+## Authors
+Srikanth V Mattihalli [github](https://github.com/srikantmatihali)[Linkedin](https://www.linkedin.com/in/srikanthvmattihalli/)[Twitter](https://twitter.com/srikantmatihali/)
 
 ## Problem Statement
 
@@ -13,7 +15,7 @@ Above are two urls from which fetching of albums and invidual photos needs to be
 2. Endpoints to be built to access the data.
 
 
-## INSTRUCTIONS
+## Project setup instructions
 
 Tech Stack userd : nodejs (expressjs), mysql
 

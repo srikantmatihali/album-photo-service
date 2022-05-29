@@ -1,0 +1,18 @@
+{
+  "name": "kreditbee",
+  "version": "1.0.0",
+  "description": "Interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srikanth v mattihalli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3"
+  }
+}

@@ -22,7 +22,7 @@ Search Album: {domain}/search/?type=album&id={albumid}
 
 Search Photo: {domain}?type=photo&albumId=13&id={photo_id}
 
-_Note: URL's are still not made search friendly. It can be made using combination of htaccess or routing stratergy. Not implemented here. It is open for changes._
+_**Note**: URL's are still not made search friendly. It can be made using combination of htaccess or routing stratergy. Not implemented here. It is open for changes._
 
 ## Project setup instructions
 

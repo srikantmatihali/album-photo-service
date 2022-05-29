@@ -4,6 +4,7 @@
 ## Problem Statement
 
 [json album api](https://jsonplaceholder.typicode.com/albums)
+
 [json photo api](https://jsonplaceholder.typicode.com/photos?albumId={albumid})
 
 Above are two urls from which fetching of albums and invidual photos needs to be done.

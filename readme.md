@@ -30,8 +30,9 @@ CREATE TABLE album (
     userId int,
     PRIMARY KEY (id)
 );
+
+/* INSERT INTO album(id_api,title,userId) values(1,'test',1); */
 ```
-// INSERT INTO album(id_api,title,userId) values(1,'test',1);
 ``` sql
 CREATE TABLE photo (
     id BIGINT NOT NULL AUTO_INCREMENT,
@@ -42,8 +43,9 @@ CREATE TABLE photo (
     thumbnailUrl TEXT,
     PRIMARY KEY (id)
 );
+
+/* INSERT INTO photo(albumId,photoId,title,url,thumbnailUrl) values(1,1,'test','http://google.com','http://google.com'); */
 ```
-//INSERT INTO photo(albumId,photoId,title,url,thumbnailUrl) values(1,1,'test','http://google.com','http://google.com');
 
 3. Go to Path of Project and load node modules.
   ```sh
